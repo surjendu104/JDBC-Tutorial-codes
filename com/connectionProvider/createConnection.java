@@ -14,7 +14,7 @@ public class createConnection {
                 // create connection with database
                 String url = "jdbc:mysql://localhost:3306/jdbc_tutorial";
                 String user = "root";
-                String password = "RbSp@302241";
+                String password = "root";
                 con = DriverManager.getConnection(url, user, password);
                 
             } catch (Exception e) {
