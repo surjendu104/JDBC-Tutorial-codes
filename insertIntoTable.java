@@ -11,7 +11,7 @@ public class insertIntoTable {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_tutorial", "root",
-                    "RbSp@302241");
+                    "root");
 
             // crate query
             String query = "insert into table1(tName,tCity) values(?,?)";
